@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-fixed bg-cover p-5 bg-[url('../public/images/computer-program-coding-screen.jpg')] backdrop-blur">
+      <body className="bg-fixed bg-cover p-5 bg-[url('../public/images/background.webp')] backdrop-blur">
         {children}
       </body>
     </html>
