@@ -1,0 +1,168 @@
+{
+  "experiences": [
+    {
+      "date": "06-2023 / Presente",
+      "company": "CDA Informática",
+      "position": "Desarrollador Senior",
+      "objective": "Desarrollador Senior JAVA de varios proyectos del cliente Banco Galicia. Migración de microservicios a una nueva versión de OpenShift actualizando dependencias para cumplir compatibilidades.",
+      "icons": [
+        "java8",
+        "java11",
+        "spring",
+        "springboot",
+        "reactjs",
+        "nodejs",
+        "nextjs",
+        "tailwindcss",
+        "sqlserver",
+        "jboss",
+        "github",
+        "jira"
+      ]
+    },
+    {
+      "date": "03-2022 / 06-2023",
+      "company": "EY",
+      "position": "Desarrollador Senior",
+      "objective": "Desarrollador Back-end de funcionalidades nuevas y resolución de vulnerabilidades de dependencias maven para el cliente Fiserv. Capacitación y realización de talleres internos de React.js, Node.js y java.",
+      "icons": [
+        "java8",
+        "java11",
+        "spring",
+        "springboot",
+        "reactjs",
+        "nodejs",
+        "sqlserver",
+        "firebase",
+        "jboss",
+        "github",
+        "jira"
+      ]
+    },
+    {
+      "date": "09-2020 / 03-2022",
+      "company": "Banco Hipotecario SA.",
+      "position": "Analista SSR",
+      "objective": "Mantenimiento y desarrollo del proyecto de sistema online banca para empresas (OfficeBanking) utilizando la metodología ágil Scrum / Kanban. Realización de análisis y fixes de incidencias en producción, desarrollos nuevos o mejoras de los productos a pedido del product owner y/o normativos del BCRA. Administración y seguimiento de tareas e implementaciones a distintos ambientes desde el sistema JIRA con Jenkins utilizando el repositorio GitLab. Capacitación y alineación para los compañeros nuevos",
+      "projects": "Office Banking.",
+      "technologies": "Servicios SoapOSB y API Rest a través de openShift y Nexus",
+      "icons": [
+        "java",
+        "jsf",
+        "primefaces",
+        "spring",
+        "hibernate",
+        "jboss",
+        "github",
+        "jira",
+        "maven",
+        "sqlserver"
+      ]
+    },
+    {
+      "date": "07-2017 / 09-2020",
+      "company": "Interaxa SA.",
+      "position": "Desarrollador Senior",
+      "objective": "Desarrollo y mantenimiento de un proyecto del Banco Hipotecario de un sistema de online banking para empresas utilizando la metodología ágil Scrum con HPE Agile Manager.",
+      "projects": "Office Banking.",
+      "technologies": "Servicios SoapOSB, API Rest, repositorio ClearCase, ClearQuest para actividades",
+      "icons": [
+        "java",
+        "jsf",
+        "primefaces",
+        "spring",
+        "hibernate",
+        "github",
+        "jboss",
+        "maven",
+        "sqlserver"
+      ]
+    },
+    {
+      "date": "03-2016 / 06-2017",
+      "company": "Flow Technology SA.",
+      "position": "Desarrollador Senior",
+      "objective": "Desarrollo de un nuevo proyecto del Banco Hipotecario de un sistema de online banking para empresas utilizando la metodología ágil Scrum.",
+      "projects": "Office Banking.",
+      "technologies": "Servicios SoapOSB, repositorio ClearCase y ClearQuest para actividades",
+      "icons": [
+        "java",
+        "jsf",
+        "primefaces",
+        "spring",
+        "hibernate",
+        "jboss",
+        "maven",
+        "sqlserver"
+      ]
+    },
+    {
+      "date": "02-2012 / 02-2016",
+      "company": "La Ley – Thomson Reuters.",
+      "position": "Desarrollador SemiSenior/Senior",
+      "objective": "Desarrollo Front End de nuevos requerimientos y mejoras de funcionalidades de varios proyectos de sistemas web para abogados y contadores para España utilizando la metodología ágil Scrum con JIRA.",
+      "projects": "Insignis, Perez Llorca, WLES, WLES Master, Litigación, Expertos, Instituciones, Checkpoint.",
+      "technologies": "velocity, XML, XSL.",
+      "icons": ["java", "jquery", "tfs", "sqlserver", "junit"]
+    },
+
+    {
+      "date": "03-2007 / 01-2012",
+      "company": "CODES SA.",
+      "position": "Desarrollador JAVA y .NET",
+      "objective": "Desarrollos llave en mano de varios proyectos con las últimas tecnologías, reingeniería,  mejoras de funcionalidades, mantenimiento y correcciones de errores realizando seguimiento con TeamFundation Server, manejo y resolución de procedimientos en PL-SQL.",
+      "projects": "CODEFAT (Cliente de Brasil), Timex (CODES), LABET (Deloitte - GSK), Datero Inteligente – Web Prendarios (Banco Santander Río SA), Tasaciones (Banco Santander Río SA), Requerimientos y gestión de clientes (Banco Santander Río SA), Web Prendarios (Banco Santander Río SA).",
+      "technologies": "Struts2, Javascript, HTML, CSS, Ajax",
+      "icons": [
+        "vbnet",
+        "sqlserver",
+        "java",
+        "spring",
+        "hibernate",
+        "jquery",
+        "oracle"
+      ]
+    },
+
+    {
+      "date": "08-2005 / 01-2007",
+      "company": "FAVRA SAIC.",
+      "position": "Soporte Técnico.",
+      "objective": "Mantenimiento, puesta a punto y reparación de computadoras, administración de Bases de Datos MS Access."
+    },
+    {
+      "date": "04-2004 / 08-2004",
+      "company": "UAI.",
+      "position": "Pasantía como Soporte Técnico.",
+      "objective": "Mantenimiento y reparación de computadoras de los laboratorios de la facultad."
+    }
+  ],
+  "curses": [
+    {
+      "name": "React.js, React Hook, Node.js, Typescript, NPM, Javascript, Github, DOM, asynchronism JS, Ecmascript 6, JAVA Spring, Spring Boot.",
+      "place": "Platzi.com",
+      "date": "2022",
+      "link": {
+        "url": "https://drive.google.com/drive/folders/1HztMVkZ5uzrOgYJJO3VwXbvebIRzf-Tb?usp=sharing",
+        "text": "Ver certificados"
+      },
+      "extra": "Los certificados se encuentran en una carpeta compartida en Drive."
+    },
+    {
+      "name": "React JS + Redux + ES6.",
+      "place": "Udemy.com",
+      "date": "En curso"
+    },
+    {
+      "name": "Desarrollo en React.JS",
+      "place": "UTN.BA e-Learning.",
+      "date": "08-2018",
+      "certificate": "CER-7PXL8QRS-294984",
+      "link": {
+        "url": "https://sigead.online/alumnos/validar_certificado",
+        "text": "Verificar certificado"
+      },
+      "extra": "Ingresar al link y poner el código de certificado para mostrar el certificado."
+    }
+  ]
+}
