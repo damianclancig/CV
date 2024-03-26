@@ -5,13 +5,14 @@ import { SideColumn } from './SideColumn'
 export function Sheet() {
   return (
     <>
-      <div className="justify-center max-w-6xl shadow-lg shadow-white rounded border border-cyan-400">
+      <div
+        id="Sheet"
+        className="max-w-6xl shadow-lg shadow-white rounded border border-cyan-400 max-lg:border-none max-lg:rounded-none max-lg:shadow-none"
+      >
         <Header />
-        <div className="">
-          <div className="flex bg-gray-200 text-black rounded-bl">
-            <SideColumn />
-            <CenterColumn />
-          </div>
+        <div className="flex bg-gray-200 text-black rounded-bl max-lg:flex-col">
+          <SideColumn />
+          <CenterColumn />
         </div>
       </div>
     </>
