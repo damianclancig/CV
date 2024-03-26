@@ -42,14 +42,14 @@ export function Cards(data: any) {
           {row.icons ? (
             <div className="flex justify-evenly items-center">
               {row.icons.map((obj: any, index: any) => (
-                <div key={index} className="pr-3">
+                <div key={index} className="pr-3 w-[64px]">
                   <Image
                     src={'/images/icons/' + obj + '.webp'}
                     alt={obj}
                     title={obj}
-                    width={50}
-                    height={0}
-                    className="w-auto h-auto"
+                    width={500}
+                    height={500}
+                    className=""
                   />
                 </div>
               ))}
