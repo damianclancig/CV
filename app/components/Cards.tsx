@@ -4,7 +4,7 @@ import Image from 'next/image'
 export function Cards(data: any) {
   return data.experiences.map((row: any, index: any) => (
     <div
-      key={index}
+      key={'experience_' + index}
       className="mb-5 p-2 border-t border-l border-sky-800 rounded-tl-xl"
     >
       <span className="text-orange-500 underline ">{row.date}</span>
