@@ -9,13 +9,13 @@ export function Cards(data: any) {
     >
       <span className="text-orange-500 underline ">{row.date}</span>
       <div>
-        <div className="">
+        <div className="max-lg:flex max-lg:flex-wrap">
           <span className="font-bold text-xl">{row.company}</span>
-          <span> | </span>
-          <span>{row.position}</span>
+          <span className="max-lg:hidden"> | </span>
+          <span className=" max-lg:w-full">{row.position}</span>
         </div>
         <div className={`${ovo.className} antialiased`}>
-          <div>
+          <div className="text-justify">
             <span className="underline text-sky-950 font-bold">Objetivo:</span>{' '}
             {row.objective}
           </div>
@@ -40,7 +40,7 @@ export function Cards(data: any) {
             ''
           )}
           {row.icons ? (
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-evenly items-center flex-wrap">
               {row.icons.map((obj: any, index: any) => (
                 <div key={index} className="pr-3 w-[64px]">
                   <Image
