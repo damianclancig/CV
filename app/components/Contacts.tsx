@@ -52,8 +52,8 @@ export function Contacts() {
         </div>
       </a>
       <div>
-        <a href="http://www.clancig.com.ar/cv" target="blank">
-          www.clancig.com.ar/cv
+        <a href="https://www.clancig.com.ar" target="blank">
+          www.clancig.com.ar
         </a>
       </div>
     </div>
