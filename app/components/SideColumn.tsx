@@ -16,7 +16,7 @@ function birthDateCalculator() {
 
 export function SideColumn() {
   return (
-    <div className="w-3/12 min-w-[288px] p-3 bg-slate-700 text-white max-lg:w-auto">
+    <div className="w-3/12 min-w-[290px] p-3 bg-slate-700 text-white max-lg:w-auto">
       <div className="h-auto  ">
         <div className="mb-5">
           Tengo {birthDateCalculator()} años (3 de Mayo del 1984) soy de Bernal
