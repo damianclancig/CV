@@ -4,7 +4,7 @@ export function Contact(props: any) {
   return (
     <a href={props.href} title={props.text}>
       <div className="flip-container flex pb-3 pl-3 border-b-2 h-10 border-slate-950 mb-3 ">
-        <div className="card">
+        <div className={props.className + ' card'}>
           <div className="front">
             <Image
               src={'/images/icons/' + props.icon + '.webp'}
