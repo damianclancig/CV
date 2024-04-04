@@ -1,56 +1,31 @@
 import Image from 'next/image'
+import { Contact } from './Contact'
 
 export function Contacts() {
   return (
-    <div className="p-2 bg-slate-900 bg-opacity-30 border border-slate-900 rounded shadow shadow-black">
-      <div className="pb-3">Contacto:</div>
-      <a href="mailto:damian@clancig.com.ar" title="Enviame un E-Mail">
-        <div className="flex pb-3 pl-3 border-b-2 border-slate-950 mb-3">
-          <Image
-            src={'/images/icons/gmail.webp'}
-            alt="gmail"
-            title="Enviame un E-Mail"
-            width={100}
-            height={100}
-            className="w-[30px] mr-2"
-          />
-          damian@clancig.com.ar
-        </div>
-      </a>
-      <a
+    <div className="p-2 mb-5 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-800 to-gray-700 bg-opacity-30 border border-slate-900 rounded shadow shadow-black">
+      <div className="pb-3 text-2xl">Contacto:</div>
+      <Contact
+        icon="gmail"
+        text="Enviame un E-Mail"
+        value="damian@clancig.com.ar"
+        href="mailto:damian@clancig.com.ar"
+      />
+      <Contact
+        icon="whatsapp"
+        text="Escribime por Whatsapp"
+        value="+54 11 6602-2526"
         href="https://wa.me/5491166022526"
-        target="blank"
-        title="Escribime por Whatsapp"
-      >
-        <div className="flex pb-3 pl-3 border-b-2 border-slate-950 mb-3">
-          <Image
-            src={'/images/icons/whatsapp.webp'}
-            alt="Whatsapp"
-            title="Escribime por Whatsapp"
-            width={100}
-            height={100}
-            className="w-[30px] mr-2"
-          />
-          +54 11 6602-2526
-        </div>
-      </a>
-      <a
+        className="animationDelay500"
+      />
+      <Contact
+        icon="linkedin"
+        text="Ver mi LinkedIn"
+        value="LinkedIn"
         href="https://www.linkedin.com/in/damianclancig/"
-        target="blank"
-        title="Ver mi Linked-In"
-      >
-        <div className="flex pb-3 pl-3 border-b-2 border-slate-950 mb-3">
-          <Image
-            src={'/images/icons/linkedin.webp'}
-            alt="LinkedIn"
-            title="Ver mi Linked-In"
-            width={100}
-            height={100}
-            className="w-[30px] mr-2"
-          />
-          LinkedIn
-        </div>
-      </a>
+        className="animationDelay1000"
+      />
+
       <div>
         <a href="https://www.clancig.com.ar" target="blank">
           www.clancig.com.ar
