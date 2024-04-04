@@ -74,3 +74,6 @@ body {
 .animationDelay1000 {
   animation-delay: 1000ms;
 }
+.animationDelay1500 {
+  animation-delay: 1500ms;
+}

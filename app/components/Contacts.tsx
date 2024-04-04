@@ -25,12 +25,18 @@ export function Contacts() {
         href="https://www.linkedin.com/in/damianclancig/"
         className="animationDelay1000"
       />
-
-      <div>
+      <Contact
+        icon="linkedin"
+        text="Mi repositorio"
+        value="GitHub"
+        href="https://github.com/damianclancig"
+        className="animationDelay1500"
+      />
+      {/* <div>
         <a href="https://www.clancig.com.ar" target="blank">
           www.clancig.com.ar
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }
