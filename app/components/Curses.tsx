@@ -1,5 +1,7 @@
-export function Curses(curses: any) {
-  return curses.curses.map((obj: any, index: any) => {
+import Link from 'next/link'
+
+export default function Curses({ curses }: any) {
+  return curses.map((obj: any, index: any) => {
     return (
       <div
         key={'curses_' + index}
@@ -8,16 +10,14 @@ export function Curses(curses: any) {
         <div className="text-blue-300">{obj.name}</div>
         <div>{obj.place}</div>
         <div>{obj.date}</div>
-        {obj.certificate ? <div>Certificado: {obj.certificate}</div> : ''}
-        {obj.link ? (
+        {obj.certificate ? (
           <div>
-            <a href={obj.link.url} target="blank" className="text-green-500">
-              {obj.link.text}
-            </a>
+            <Link href={'?modal=true&certs=' + obj.certificate}>Ver certificados</Link>
           </div>
         ) : (
           ''
         )}
+
         <div>{obj.extra}</div>
       </div>
     )

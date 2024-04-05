@@ -1,12 +1,14 @@
-import { promises as fs } from 'fs'
 import { Title } from './Title'
-import { Cards } from './Cards'
-import { Curses } from './Curses'
+import Cards from './Cards'
+import Curses from './Curses'
+import { getLocalData } from '../lib/localdata'
 
-export async function CenterColumn() {
-  const file = await fs.readFile(process.cwd() + '/app/data.json', 'utf8')
-  const data = JSON.parse(file)
+export async function getData() {
+  return await getLocalData()
+}
 
+export default async function CenterColumn() {
+  const data = await getData()
   return (
     <div className="w-9/12 rounded-br max-lg:w-auto">
       <div className="m-5">

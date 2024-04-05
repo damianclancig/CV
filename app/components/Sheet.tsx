@@ -1,8 +1,8 @@
-import { CenterColumn } from './CenterColumn'
+import CenterColumn from './CenterColumn'
 import { Header } from './Header'
 import { SideColumn } from './SideColumn'
 
-export function Sheet() {
+export default function Sheet() {
   return (
     <>
       <div

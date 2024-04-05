@@ -1,8 +1,8 @@
 import { ovo } from '../fonts'
 import Image from 'next/image'
 
-export function Cards(data: any) {
-  return data.experiences.map((row: any, index: any) => (
+export default function Cards({ experiences }: any) {
+  return experiences.map((row: any, index: any) => (
     <div
       key={'experience_' + index}
       className="mb-5 p-2 border-t border-l border-sky-800 rounded-tl-xl"
@@ -16,24 +16,18 @@ export function Cards(data: any) {
         </div>
         <div className={`${ovo.className} antialiased`}>
           <div className="text-justify">
-            <span className="underline text-sky-950 font-bold">Objetivo:</span>{' '}
-            {row.objective}
+            <span className="underline text-sky-950 font-bold">Objetivo:</span> {row.objective}
           </div>
           {row.projects ? (
             <div>
-              <span className="underline text-sky-950 font-bold">
-                Proyectos:
-              </span>{' '}
-              {row.projects}
+              <span className="underline text-sky-950 font-bold">Proyectos:</span> {row.projects}
             </div>
           ) : (
             ''
           )}
           {row.technologies || row.icons ? (
             <div>
-              <span className="underline text-sky-950 font-bold">
-                Tecnologías:
-              </span>{' '}
+              <span className="underline text-sky-950 font-bold">Tecnologías:</span>{' '}
               {row.technologies}
             </div>
           ) : (

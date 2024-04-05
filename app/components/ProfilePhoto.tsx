@@ -9,6 +9,7 @@ export function ProfilePhoto() {
         alt="ProfilePhoto"
         width={300}
         height={300}
+        priority={true}
       />
     </div>
   )
