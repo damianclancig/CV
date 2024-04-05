@@ -7,7 +7,7 @@ export default function Cards({ experiences }: any) {
       key={'experience_' + index}
       className="mb-5 p-2 border-t border-l border-sky-800 rounded-tl-xl"
     >
-      <span className="text-orange-500 underline ">{row.date}</span>
+      <span className="text-orange-600 underline ">{row.date}</span>
       <div>
         <div className="max-lg:flex max-lg:flex-wrap">
           <span className="font-bold text-xl">{row.company}</span>
@@ -41,8 +41,8 @@ export default function Cards({ experiences }: any) {
                     src={'/images/icons/' + obj + '.webp'}
                     alt={obj}
                     title={obj}
-                    width={500}
-                    height={500}
+                    width={50}
+                    height={50}
                     className=""
                   />
                 </div>

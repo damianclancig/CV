@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-fixed bg-cover p-5 bg-[url('../public/images/background.webp')] backdrop-blur max-lg:p-0">
+      <body className="bg-fixed bg-cover p-5 bg-[url('../public/images/background.webp')] backdrop-blur max-lg:bg-none max-lg:p-0">
         {children}
         <Modal />
       </body>

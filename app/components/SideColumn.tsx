@@ -32,8 +32,8 @@ export function SideColumn() {
             src="/images/wordCloudTech.webp"
             className="w-full ml-1"
             alt="ProfilePhoto"
-            width={400}
-            height={400}
+            width={100}
+            height={100}
           />
         </div>
         <div className="text-2xl">Idiomas:</div>
