@@ -18,11 +18,11 @@ export default function Modal() {
           {/* // Background blur */}
           <dialog className="left-0 top-0 w-full h-full bg-black bg-opacity-50 z-50 backdrop-blur flex justify-center">
             {/* Dialog */}
-            <div className="bg-zinc-200 m-auto my-5 p-2 rounded-lg shadow fixed  ">
+            <div className="bg-zinc-300 m-auto my-5 p-2 rounded-lg shadow fixed  ">
               {/* Container */}
               <div className="flex flex-col items-center">
                 {/* Content */}
-                <div className="container mx-auto px-2 py-2 lg:px-2 lg:pt-2 overflow-y-scroll max-h-[720px] lg:max-h-[800px]">
+                <div className="container mx-auto px-2 py-2 lg:px-2 lg:pt-2 overflow-y-scroll  max-h-[600px] sm:max-h-[720px] lg:max-h-[800px]">
                   {/* Data flex */}
                   <div className="-m-1 flex flex-wrap md:-m-2 justify-center">
                     {certs?.split(',').map((cert, index) => {
@@ -46,7 +46,7 @@ export default function Modal() {
                 <Link href={pathname}>
                   <button
                     type="button"
-                    className="text-white bg-slate-600 hover:bg-slate-900 rounded-lg px-5 py-1 text-center"
+                    className="text-xl text-white bg-slate-600 hover:bg-slate-900 rounded-lg px-4 py-1 text-center"
                   >
                     Cerrar
                   </button>
