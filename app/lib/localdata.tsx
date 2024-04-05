@@ -11,9 +11,3 @@ export async function getLocalData() {
 
   return objectData
 }
-
-// export async function ReadJson() {
-//   const file = await fs.readFile(process.cwd() + '/app/data.json', 'utf8')
-//   const data = JSON.parse(file)
-//   return data
-// }
