@@ -7,10 +7,10 @@ export default function Cards({ experiences }: any) {
       key={'experience_' + index}
       className="mb-5 p-2 border-t border-l border-sky-800 rounded-tl-xl"
     >
-      <span className="text-orange-600 underline ">{row.date}</span>
+      <span className="text-amber-700 font-bold ">{row.date}</span>
       <div>
         <div className="max-lg:flex max-lg:flex-wrap">
-          <span className="font-bold text-xl">{row.company}</span>
+          <span className="font-bold text-2xl">{row.company}</span>
           <span className="max-lg:hidden"> | </span>
           <span className=" max-lg:w-full">{row.position}</span>
         </div>
