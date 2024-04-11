@@ -1,7 +1,8 @@
 import { Title } from './Title'
 import Cards from './Cards'
-import Curses from './Curses'
+import Courses from './Courses'
 import { getLocalData } from '../lib/localdata'
+import Link from 'next/link'
 
 export async function getData() {
   return await getLocalData()
@@ -16,8 +17,9 @@ export default async function CenterColumn() {
         <Cards experiences={data.experiences}></Cards>
       </div>
       <div className="bg-stone-700 p-5 text-white max-lg:w-auto">
+        <a id="courses"></a>
         <Title>CURSOS:</Title>
-        <Curses curses={data.curses}></Curses>
+        <Courses courses={data.courses}></Courses>
       </div>
     </div>
   )

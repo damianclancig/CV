@@ -35,7 +35,7 @@ export default function Cards({ experiences }: any) {
           )}
           {row.icons ? (
             <div className="flex justify-evenly items-center flex-wrap">
-              {row.icons.map((obj: any, index: any) => (
+              {row.icons.map((obj: string, index: number) => (
                 <div key={index} className="pr-3 w-[64px]">
                   <Image
                     src={'/images/icons/' + obj + '.webp'}

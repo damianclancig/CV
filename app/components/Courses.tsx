@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
-export default function Curses({ curses }: any) {
-  return curses.map((obj: any, index: any) => {
+export default function Courses({ courses }: any) {
+  return courses.map((obj: any, index: any) => {
     return (
       <div
-        key={'curses_' + index}
+        key={'courses_' + index}
         className="p-2 mb-3 border-t border-l border-slate-300 rounded-tl-xl"
       >
         <div className="text-blue-300">{obj.name}</div>
