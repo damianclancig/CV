@@ -1,35 +1,47 @@
-import { holtwood } from '../fonts'
-import { NameTitle } from './NameTitle'
-import { ProfilePhoto } from './ProfilePhoto'
+import Image from 'next/image'
+import { Contacts } from './Contacts'
+
+function birthDateCalculator() {
+  const birthDate = new Date('1984/05/03')
+  const now = new Date(Date.now())
+  let yearOld = now.getFullYear() - birthDate.getFullYear()
+  if (
+    now.getMonth() < birthDate.getMonth() ||
+    (now.getMonth() == birthDate.getMonth() && now.getDate() < birthDate.getDate())
+  ) {
+    yearOld = yearOld - 1
+  }
+  return yearOld
+}
 
 export function SideColumn() {
   return (
-    <div className="w-3/12 p-5 bg-slate-700 text-white max-lg:w-auto">
+    <div className="w-3/12 min-w-[290px] p-3 bg-slate-700 text-white max-lg:w-auto">
       <div className="h-auto  ">
-        <div className="mb-5">
-          Tengo 39 años (3 de Mayo del 1984) de Bernal Oeste (1876), Bs. As.,
-          Argentina, estoy casado.
+        {/* <div className="mb-5">
+          Nací el 3 de Mayo del 1984 ({birthDateCalculator()} años) en Bernal
+          (1876), Bs. As., Argentina, soy casado y tengo 2 peludos (Jama y
+          Onix), me encantan los animales. En mis tiempos libres me gusta hacer
+          carpintería, pasear a pueblos o caminar en espacios verdes con mucha
+          naturaleza.
+        </div> */}
+        <Contacts />
+        <div className="text-2xl">Habilidades:</div>
+        <div className="mb-5 border-2 border-orange-400 rounded-full">
+          <Image
+            src="/images/wordCloudTech.webp"
+            className="w-full ml-1"
+            alt="ProfilePhoto"
+            width={400}
+            height={400}
+          />
         </div>
-        <div className="p-2 border border-slate-900 rounded-lg shadow-md shadow-black">
-          <div>Contacto:</div>
-          <div>
-            <a href="mailto:damian@clancig.com.ar">damian@clancig.com.ar</a>
-          </div>
-          <div>
-            <a href="https://wa.me/5491166022526" target="blank">
-              54911022526
-            </a>
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/damianclancig/" target="blank">
-              LinkedIn
-            </a>
-          </div>
-          <div>
-            <a href="http://www.clancig.com.ar/cv" target="blank">
-              www.clancig.com.ar/cv
-            </a>
-          </div>
+        <div className="text-2xl">Idiomas:</div>
+        <div className="pl-3 pb-5">
+          <ul>
+            <li>Inglés intermedio.</li>
+            <li>Portugués básico.</li>
+          </ul>
         </div>
       </div>
     </div>

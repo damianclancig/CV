@@ -1,12 +1,12 @@
 import { Sheet } from './components/Sheet'
-import { tienne } from './fonts'
+import { tinos } from './fonts'
 
 export default function Home() {
   return (
     <>
       <div
         id="principal"
-        className={`${tienne.className} antialiased  flex justify-center`}
+        className={`${tinos.className} antialiased text-xl flex justify-center`}
       >
         <Sheet></Sheet>
       </div>

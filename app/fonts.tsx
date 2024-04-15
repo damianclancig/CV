@@ -1,4 +1,4 @@
-import { Holtwood_One_SC, Ovo, Tienne } from 'next/font/google'
+import { Domine, Holtwood_One_SC, Ovo, Tienne, Tinos } from 'next/font/google'
 
 export const holtwood = Holtwood_One_SC({
   subsets: ['latin'],
@@ -13,4 +13,14 @@ export const tienne = Tienne({
 export const ovo = Ovo({
   subsets: ['latin'],
   weight: '400',
+})
+
+export const domine = Domine({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+})
+
+export const tinos = Tinos({
+  subsets: ['latin'],
+  weight: ['400', '700'],
 })
