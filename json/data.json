@@ -85,16 +85,7 @@
       "objective": "Desarrollo de un nuevo proyecto del Banco Hipotecario de un sistema de online banking para empresas utilizando la metodología ágil Scrum.",
       "projects": "Office Banking.",
       "technologies": "Servicios SoapOSB, repositorio ClearCase y ClearQuest para actividades",
-      "icons": [
-        "java",
-        "jsf",
-        "primefaces",
-        "spring",
-        "hibernate",
-        "jboss",
-        "maven",
-        "sqlserver"
-      ]
+      "icons": ["java", "jsf", "primefaces", "spring", "hibernate", "jboss", "maven", "sqlserver"]
     },
     {
       "date": "02-2012 / 02-2016",
@@ -113,15 +104,7 @@
       "objective": "Desarrollos llave en mano de varios proyectos con las últimas tecnologías, reingeniería,  mejoras de funcionalidades, mantenimiento y correcciones de errores realizando seguimiento con TeamFundation Server, manejo y resolución de procedimientos en PL-SQL.",
       "projects": "CODEFAT (Cliente de Brasil), Timex (CODES), LABET (Deloitte - GSK), Datero Inteligente – Web Prendarios (Banco Santander Río SA), Tasaciones (Banco Santander Río SA), Requerimientos y gestión de clientes (Banco Santander Río SA), Web Prendarios (Banco Santander Río SA).",
       "technologies": "Struts2, Javascript, HTML, CSS, Ajax",
-      "icons": [
-        "vbnet",
-        "sqlserver",
-        "java",
-        "spring",
-        "hibernate",
-        "jquery",
-        "oracle"
-      ]
+      "icons": ["vbnet", "sqlserver", "java", "spring", "hibernate", "jquery", "oracle"]
     },
 
     {
@@ -137,16 +120,35 @@
       "objective": "Mantenimiento y reparación de computadoras de los laboratorios de la facultad."
     }
   ],
-  "curses": [
+  "courses": [
     {
       "name": "React.js, React Hook, Node.js, Typescript, NPM, Javascript, Github, DOM, asynchronism JS, Ecmascript 6, JAVA Spring, Spring Boot.",
       "place": "Platzi.com",
       "date": "2022",
-      "link": {
-        "url": "https://drive.google.com/drive/folders/1HztMVkZ5uzrOgYJJO3VwXbvebIRzf-Tb?usp=sharing",
-        "text": "Ver certificados"
-      },
-      "extra": "Los certificados se encuentran en una carpeta compartida en Drive."
+      "certificate": [
+        "Cert-Platzi-Asinc-Javascript.webp",
+        "Cert-Platzi-Backend-NodeJs.webp",
+        "Cert-Platzi-DB.webp",
+        "Cert-Platzi-Dom.webp",
+        "Cert-Platzi-Ecmascript6.webp",
+        "Cert-Platzi-Frontend.webp",
+        "Cert-Platzi-Fund-Ing-Soft.webp",
+        "Cert-Platzi-Git.webp",
+        "Cert-Platzi-Hist-Prog.webp",
+        "Cert-Platzi-Intro-Reactjs.webp",
+        "Cert-Platzi-Javascript1.webp",
+        "Cert-Platzi-Javascript2.webp",
+        "Cert-Platzi-Nodejs.webp",
+        "Cert-Platzi-npm.webp",
+        "Cert-Platzi-POO.webp",
+        "Cert-Platzi-React-Hooks.webp",
+        "Cert-Platzi-Reactjs.webp",
+        "Cert-Platzi-Spring.webp",
+        "Cert-Platzi-Spring-Boot.webp",
+        "Cert-Platzi-Terminal.webp",
+        "Cert-Platzi-Testing-Java.webp",
+        "Cert-Platzi-Typescript.webp"
+      ]
     },
     {
       "name": "React JS + Redux + ES6.",
@@ -157,12 +159,7 @@
       "name": "Desarrollo en React.JS",
       "place": "UTN.BA e-Learning.",
       "date": "08-2018",
-      "certificate": "CER-7PXL8QRS-294984",
-      "link": {
-        "url": "https://sigead.online/alumnos/validar_certificado",
-        "text": "Verificar certificado"
-      },
-      "extra": "Ingresar al link y poner el código de certificado para mostrar el certificado."
+      "certificate": ["Cert-UTN-ReactJs.webp"]
     }
   ]
 }

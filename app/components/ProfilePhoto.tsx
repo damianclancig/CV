@@ -7,8 +7,9 @@ export function ProfilePhoto() {
         src="/images/perfil.webp"
         className="rounded-full border-orange-500 border-4 w-full"
         alt="ProfilePhoto"
-        width={300}
-        height={300}
+        width={30}
+        height={30}
+        priority={true}
       />
     </div>
   )

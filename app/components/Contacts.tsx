@@ -26,7 +26,7 @@ export function Contacts() {
         className="animationDelay1000"
       />
       <Contact
-        icon="linkedin"
+        icon="github.mini"
         text="Mi repositorio"
         value="GitHub"
         href="https://github.com/damianclancig"

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Modal from './components/Modal'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-fixed bg-cover p-5 bg-[url('../public/images/background.webp')] backdrop-blur max-lg:p-0">
+      <body className="bg-fixed bg-cover bg-[url('../public/images/background.jpg')] backdrop-blur max-lg:p-0">
         {children}
       </body>
     </html>
