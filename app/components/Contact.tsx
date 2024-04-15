@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Contact(props: any) {
   return (
-    <a href={props.href} title={props.text}>
+    <a href={props.href} title={props.text} target="blank">
       <div className="flip-container flex pb-3 pl-3 border-b-2 h-10 border-slate-950 mb-3 ">
         <div className={props.className + ' card'}>
           <div className="front">

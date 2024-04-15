@@ -40,7 +40,7 @@ export default function ViewCerts() {
           ))}
           <br />
         </section>
-        <Link href={'/#courses'} className="flex justify-center pb-5">
+        <Link href="/#courses" className="flex justify-center pb-5">
           <button
             type="button"
             className="text-xl text-white bg-slate-600 hover:bg-slate-900 rounded-lg px-4 py-1 text-center"

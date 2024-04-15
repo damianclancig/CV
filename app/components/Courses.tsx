@@ -11,7 +11,7 @@ export default function Courses({ courses }: any) {
         <div>{obj.place}</div>
         <div>{obj.date}</div>
         {obj.certificate ? (
-          <div className="border border-slate-500 w-fit px-2 rounded-2xl bg-slate-800 bg-opacity-50 hover:bg-slate-900 hover:text-slate-300 hover:bg-opacity-80">
+          <div className="border border-slate-500 w-fit px-4 py-2 rounded-2xl bg-slate-800 bg-opacity-50 hover:bg-slate-900 hover:text-slate-300 hover:bg-opacity-80">
             <Link href={'viewcerts?certs=' + obj.certificate}>Ver certificados</Link>
           </div>
         ) : (
