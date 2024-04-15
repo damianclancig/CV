@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Modal from './components/Modal'
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-fixed bg-cover bg-[url('../public/images/background.jpg')] backdrop-blur max-lg:p-0">
         {children}
+        <ScrollToTopButton />
       </body>
     </html>
   )

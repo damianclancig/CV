@@ -13,6 +13,7 @@ export default async function CenterColumn() {
   return (
     <div className="w-9/12 rounded-br max-lg:w-auto">
       <div className="m-5">
+        <a id="experiences"></a>
         <Title>EXPERIENCIA LABORAL:</Title>
         <Cards experiences={data.experiences}></Cards>
       </div>
