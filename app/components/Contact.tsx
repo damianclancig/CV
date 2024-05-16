@@ -1,13 +1,15 @@
 import Image from 'next/image'
 
 export function Contact(props: any) {
+  const isPngIcon = props.icon.indexOf('svg')
+  const icon = isPngIcon > 0 ? props.icon : '/images/icons/' + props.icon + '.webp'
   return (
     <a href={props.href} title={props.text} target="blank">
       <div className="flip-container flex pb-3 pl-3 border-b-2 h-10 border-slate-950 mb-3 ">
         <div className={props.className + ' card'}>
           <div className="front">
             <Image
-              src={'/images/icons/' + props.icon + '.webp'}
+              src={icon}
               alt="gmail"
               title={props.text}
               width={100}
@@ -18,7 +20,7 @@ export function Contact(props: any) {
           </div>
           <div className="back">
             <Image
-              src={'/images/icons/' + props.icon + '.webp'}
+              src={icon}
               alt="gmail"
               title={props.text}
               width={100}

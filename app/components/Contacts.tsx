@@ -32,6 +32,13 @@ export function Contacts() {
         href="https://github.com/damianclancig"
         className="animationDelay1500"
       />
+      <Contact
+        icon="https://cdn.cafecito.app/imgs/cafecito_logo.svg"
+        text="Invitame un café en"
+        value="Cafecito.app"
+        href="https://cafecito.app/damianclancig"
+        className="animationDelay2000"
+      />
       {/* <div>
         <a href="https://www.clancig.com.ar" target="blank">
           www.clancig.com.ar
