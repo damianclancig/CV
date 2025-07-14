@@ -1,0 +1,342 @@
+
+{
+  "lang": {
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "completed": "Completed",
+    "in_progress": "In Progress",
+    "present": "Present",
+    "achievements": "Achievements",
+    "personal_data": "Personal Data",
+    "full_name": "Full Name",
+    "dob": "Date of Birth",
+    "marital_status": "Marital Status",
+    "married": "Married",
+    "nationality": "Nationality",
+    "argentina": "Argentina",
+    "address": "Address",
+    "city": "City",
+    "province": "Province",
+    "buenos_aires": "Buenos Aires",
+    "phone": "Phone",
+    "programming_languages": "Programming Languages",
+    "frameworks": "Frameworks & Libraries",
+    "databases": "Databases",
+    "repositories": "Repositories",
+    "servers": "Servers",
+    "applications": "Applications & Tools",
+    "methodologies": "Methodologies",
+    "languages": "Languages",
+    "english": "English",
+    "portuguese": "Portuguese",
+    "intermediate": "Intermediate",
+    "basic": "Basic"
+  },
+  "personal": {
+    "name": "Damián Andrés Clancig",
+    "title": "Senior FullStack Developer",
+    "summary": "I am a Full Stack developer with over 15 years of experience, specializing in Java since 2007. I am passionate about software development, problem-solving, and continuous learning.\n\nI am currently honing my skills in the JavaScript ecosystem, working with React.js for the frontend and Node.js with Express for the backend. I am also exploring Next.js to build more complete, fast, and optimized web applications. This evolution allows me to integrate both the traditional Java world and modern technologies geared towards dynamic web applications.\n\nMy professional goal is to join a 100% remote development team where I can contribute my experience, adaptability, and results-oriented approach, while continuing to grow technically in a collaborative environment.",
+    "photo": "/profile.jpg",
+    "contact": {
+      "email": "damian@clancig.com.ar",
+      "phone": "+54 9 11 6602-2526",
+      "whatsapp": "5491166022526",
+      "linkedin": "https://linkedin.com/in/damianclancig",
+      "github": "https://github.com/damianclancig",
+      "website": "https://clancig.com.ar",
+      "cafesito": "https://cafesito.app/damianclancig"
+    }
+  },
+  "personal_data": {
+    "full_name": "CLANCIG, Damián Andrés",
+    "dob": "May 3, 1984",
+    "dni": "30.957.459",
+    "cuil": "20-30957459-2",
+    "marital_status": "Married",
+    "nationality": "Argentina",
+    "address": "Viejo Bueno 402 PA.",
+    "city": "Bernal Oeste (1876)",
+    "province": "Buenos Aires",
+    "email": "damian@clancig.com.ar",
+    "phone": "15-6602-2526",
+    "website": "www.clancig.com.ar"
+  },
+  "experience": [
+    {
+      "company": "CDA Informática",
+      "position": "Senior Fullstack Developer",
+      "period": "06/2023 - Present",
+      "description": "Participation as a senior developer in various projects for clients in the banking and energy sectors. Initially assigned to the backend development team at Banco Galicia, collaborating on the maintenance and evolution of internal systems. Later reassigned to YPF's digital transformation project, serving as a frontend developer focused on building modern interfaces and mobile applications.",
+      "technologies": [
+        "Java 8/11",
+        "Spring",
+        "Spring Boot",
+        "React",
+        "Node.js",
+        "Next.js",
+        "TailwindCSS",
+        "SQL Server",
+        "JBoss",
+        "GitHub",
+        "Jira",
+        "Flutter"
+      ],
+      "achievements": [
+        "Leadership in critical version updates",
+        "Implementation of modern FullStack solutions"
+      ]
+    },
+    {
+      "company": "EY",
+      "position": "Senior Developer",
+      "period": "03/2022 - 06/2023",
+      "description": "Back-end development for Fiserv. Resolution of vulnerabilities and internal training in React.js and Node.js.",
+      "technologies": [
+        "Java 8/11",
+        "Spring Boot",
+        "React.js",
+        "Node.js",
+        "MS SQL Server",
+        "Firebase",
+        "Jboss",
+        "GITHUB",
+        "Jira Software"
+      ],
+      "achievements": [
+        "Elimination of critical vulnerabilities",
+        "Training of teams in modern technologies"
+      ]
+    },
+    {
+      "company": "Banco Hipotecario SA",
+      "position": "SSR Analyst",
+      "period": "09/2020 - 03/2022",
+      "description": "Maintenance and development of the online banking system for companies (OfficeBanking), applying agile Scrum and Kanban methodologies.\nAnalysis and resolution of production incidents, as well as development of new functionalities and improvements requested by the Product Owner or in compliance with BCRA regulations.\nManagement and monitoring of tasks and implementations in different environments, using JIRA, Jenkins, and GitLab repositories.\nTraining and mentoring of new team members for their rapid integration.",
+      "technologies": [
+        "Java 1.6",
+        "JSF",
+        "PrimeFaces",
+        "Spring",
+        "Hibernate",
+        "SOAP",
+        "REST API",
+        "OpenShift",
+        "GitLab",
+        "Jira",
+        "JBoss",
+        "Maven",
+        "Nexus",
+        "MS SQL Server"
+      ],
+      "achievements": [
+        "Management of production deployments",
+        "Training of new team members"
+      ]
+    },
+    {
+      "company": "Interaxa SA",
+      "position": "Senior Developer",
+      "period": "07/2017 - 09/2020",
+      "description": "Development and maintenance of the online banking system for companies of Banco Hipotecario, applying Scrum agile methodology and managing the project through HPE Agile Manager.",
+      "technologies": [
+        "Java 1.6",
+        "JSF",
+        "PrimeFaces",
+        "Spring",
+        "Hibernate",
+        "SOAP",
+        "REST API",
+        "ClearCase",
+        "GIT",
+        "ClearQuest",
+        "JBoss",
+        "Maven",
+        "SQL Server"
+      ],
+      "achievements": [
+        "Implementation of services SOAP/REST",
+        "Work with agile methodologies"
+      ]
+    },
+    {
+      "company": "Flow Technology SA",
+      "position": "Senior Developer",
+      "period": "03/2016 - 06/2017",
+      "description": "Development of a new online banking system for companies of Banco Hipotecario, applying Scrum agile methodology.",
+      "technologies": [
+        "Java 1.6",
+        "JSF",
+        "PrimeFaces",
+        "Spring",
+        "Hibernate",
+        "SOAP OSB",
+        "ClearCase",
+        "ClearQuest",
+        "JBoss",
+        "Maven",
+        "SQL Server"
+      ],
+      "achievements": [
+        "Implementation of a scalable architecture"
+      ]
+    },
+    {
+      "company": "La Ley - Thomson Reuters",
+      "position": "SemiSenior/Senior Developer",
+      "period": "02/2012 - 02/2016",
+      "description": "Front End development of new requirements and functionality improvements in various web systems for lawyers and accountants in Spain, applying Scrum agile methodology and managing tasks with JIRA.\nParticipation in projects: Insignis, Pérez-Llorca, WLES, WLES Master, Litigación, Expertos, Instituciones, and Checkpoint.",
+      "technologies": [
+        "Java",
+        "Velocity",
+        "XML",
+        "XSL",
+        "jQuery",
+        "TFS",
+        "SQL Server",
+        "jUnit"
+      ],
+      "achievements": [
+        "Implementation of new functionalities",
+        "Work with agile methodologies"
+      ]
+    },
+    {
+      "company": "CODES SA",
+      "position": "JAVA and .NET Developer",
+      "period": "03/2007 - 01/2012",
+      "description": "Development and maintenance of web systems for clients in Brazil and Argentina, covering turnkey projects, re-engineering, and functionality improvements, with participation in all stages of the software life cycle.\n\nFeatured Projects:\n\n• CODEFAT (Brazil): Worker and asset administration system, with documentation and interface in Portuguese. (Visual.Net 2008, SQL Server 2008).\n\n• Timex (CODES): Redesign and development from scratch of the time tracking system with current technologies. (Java, Struts2, Hibernate, JavaScript, jQuery, SQL Server, HTML, CSS).\n\n• LABET (Deloitte – GSK): Drug administration and tracking system in different states and locations for approval. (Java, Struts2, Hibernate, JavaScript, jQuery, SQL Server, HTML, CSS).\n\n• Datero Inteligente – Web Prendarios (Banco Santander Río SA): Re-engineering of the Web Prendarios system. (Java, Struts2, Hibernate, JavaScript, Ajax, Oracle SQL, HTML, CSS).\n\n• Appraisals (Banco Santander Río SA): Maintenance and bug fixing, PL/SQL procedures. (Java, Struts, Oracle SQL).\n\n• Requirements and Client Management (Banco Santander Río SA): Maintenance and bug fixing, PL/SQL procedures. (Java, Struts, Oracle SQL).\n\n• Web Prendarios (Banco Santander Río SA): Maintenance and bug fixing, PL/SQL procedures. (Java, Struts, Oracle SQL).",
+      "technologies": [
+        "Java",
+        "Struts2",
+        "JavaScript",
+        "VB.NET"
+      ],
+      "achievements": [
+        "Implementation of complete solutions"
+      ]
+    }
+  ],
+  "education": {
+    "courses": [
+      {
+        "title": "React.js, React Hooks, Node.js, TypeScript, NPM, JavaScript, GitHub",
+        "platform": "Platzi.com",
+        "year": "2022",
+        "status": "completed",
+        "technologies": [
+          "React",
+          "Node.js",
+          "TypeScript",
+          "ES6"
+        ],
+        "certificateUrl": "#"
+      },
+      {
+        "title": "React JS + Redux + ES6",
+        "platform": "Udemy.com",
+        "year": "In progress",
+        "status": "in_progress",
+        "technologies": [
+          "React",
+          "Redux",
+          "ES6"
+        ]
+      },
+      {
+        "title": "Development in React.JS",
+        "platform": "UTN.BA e-Learning",
+        "year": "08/2018",
+        "status": "completed",
+        "technologies": [
+          "React",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "JAVA Spring, Spring Boot",
+        "platform": "Platzi.com",
+        "year": "2022",
+        "status": "completed",
+        "technologies": [
+          "Java",
+          "Spring",
+          "Spring Boot"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "programming_languages": [
+      "Java",
+      "Dart",
+      "JSP",
+      "XSL",
+      "XML",
+      "JSF",
+      "PHP",
+      "JavaScript",
+      "AJAX",
+      "HTML",
+      "CSS",
+      "C/C++",
+      "C#",
+      "VB6",
+      "VB.NET"
+    ],
+    "frameworks": [
+      "React",
+      "Node.js",
+      "Next.js",
+      "Flutter",
+      "TailwindCSS",
+      "jQuery",
+      "Struts",
+      "Hibernate",
+      "Spring",
+      "Velocity",
+      "PrimeFaces"
+    ],
+    "databases": [
+      "MS SQL Server",
+      "MySQL",
+      "PL-SQL",
+      "Oracle",
+      "Access",
+      "Firebase",
+      "MongoDB"
+    ],
+    "repositories": [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "TFS",
+      "ClearCase"
+    ],
+    "servers": [
+      "Apache",
+      "JBoss",
+      "Tomcat",
+      "Firebase",
+      "Vercel"
+    ],
+    "applications": [
+      "VS Code",
+      "Eclipse",
+      "Spring Tools",
+      "IBM WebSphere",
+      "IBM Rational",
+      "TOAD",
+      "Visual Studio",
+      "ClearQuest"
+    ],
+    "methodologies": [
+      "Scrum",
+      "Kanban"
+    ]
+  },
+  "languages": {
+    "english": "Intermediate",
+    "portuguese": "Basic"
+  }
+}
